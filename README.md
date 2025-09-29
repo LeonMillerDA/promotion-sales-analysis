@@ -86,9 +86,11 @@ The goal is to identify the most effective promotion to guide business decisions
 ## OLS Regression
 - Fitted an OLS model with promotion as a categorical variable.  
 - Regression summary includes coefficients, p-values, and R².  
+> **Note:** Statistical significance of coefficients was assessed via p-values; details are provided in the notebook.  
 
 **OLS Regression Results:**  
 <img src="images/ols_regression_summary.png" width="600"/>
+
 
 ---
 
@@ -111,6 +113,7 @@ The goal is to identify the most effective promotion to guide business decisions
 ## ANOVA & Post-hoc Testing
 - ANOVA confirms overall differences between promotions.  
 - Tukey HSD identifies which promotions differ significantly.  
+> **Note:** Statistical significance was assessed using ANOVA F-tests and Tukey HSD post-hoc comparisons; see the notebook for full details.  
 
 **Tukey HSD Summary Table:**  
 <img src="images/tukey_hsd_summary.png" width="600"/>
